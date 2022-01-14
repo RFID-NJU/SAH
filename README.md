@@ -20,7 +20,7 @@ TimeStamp(ms)  epc        phase   max rssi   frequency   port
 8663           20220106   5.375   -46.5      920.625     1
 8668           20220106   5.405   -46.5      920.625     1
 ```
-One set of data is provided here for reproduction:
+One dataset is provided here for reproduction:
 
 **calibration:**
 
