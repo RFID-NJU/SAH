@@ -24,11 +24,10 @@ One set of data is provided here for reproduction:
 
 **calibration:**
 
-Two trajectories with a length of 1.2m are used. The radial distances are **60 and 70cm**. The direction is the lateral direction.  The speed is 5cm/s. 
+Two trajectories with a length of 1.2m are used. The moving direction is along the lateral direction, at the speed of 5cm/s. The radial distances are **60cm and 70cm**, respectively. 
 
-**localization:**
-
-The ground truth is **(100,100)cm** and the trajectory length is 1.5m. The direction is the lateral direction.  The speed is 5cm/s. 
+localization:
+The ground truth is **(100,100)cm** and the tag's motion trajectory is 1.5m long. The moving direction is along the lateral direction, at the speed of 5cm/s.
 
 ### Antenna calibration
 
