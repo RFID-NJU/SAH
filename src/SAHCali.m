@@ -51,7 +51,7 @@ for filenum =1:channel_num
     l = centroid_y;
     for m = -50:1:50
         for n = -50:1:50
-            for h = -30:1:30
+            for h = -50:1:50
                 pos = [w+m,l+n,h];
                 value = CaliPixel(pos);
                 if value > maxPixel
