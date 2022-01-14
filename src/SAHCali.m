@@ -21,7 +21,7 @@ pc_y = zeros(1,channel_num);
 pc_z = zeros(1,channel_num);
 for filenum =1:channel_num
     % trajectory 1
-    filename = "cali_channel"+int2str(channel_num)+"_dist60.txt";
+    filename = "cali_channel"+int2str(filenum)+"_dist60.txt";
     data = load(filename);
     x1 = (data(:,1)-data(1,1))/1000*vel;
     phase1= 2*pi - data(:,3);
@@ -32,7 +32,7 @@ for filenum =1:channel_num
     end
     y1 = zeros(length(x1),1);
     % trajectory 2
-    filename = "cali_channel"+int2str(channel_num)+"_dist70.txt";
+    filename = "cali_channel"+int2str(filenum)+"_dist70.txt";
     data = load(filename);
     x2 = (data(:,1)-data(1,1))/1000*vel;
     phase2= 2*pi - data(:,3);
